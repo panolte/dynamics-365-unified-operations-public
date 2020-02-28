@@ -73,13 +73,10 @@ This topic shows how to create, print, and post collection letters. This task us
     1. In the **Status** field, select **Posted**.
     1. In the **Printed** field, select an option.
 
-## Control collection letters at the customer level
-You can also set up collection letters at the customer level so that the collection letter code for each transaction is 
-tracked, but the collection letter processing will be based on a single collection letter level that is stored for the customer. 
-The single collection letter will contain all transactions that are overdue for the customer. Because the grace days are 
-now tracked on the customer level, the next collection letter will not be sent until the number of grace days has 
-passed for the next collection letter in the sequence, even though transactions become overdue after 
-the last collection letter was sent. This option reduces the number of collection letters you will send per customer. 
+## Control collection letters at the transaction or customer level
+Collection letters set at the transaction level will create multiple letters per customer based on the aging of each transaction.  When multiple transactions fall into the same letter sequence they will be grouped to one letter.  If transactions appear in different letter sequences a letter will be created for each of the required collection letters.  Each collection letter code is tracked to the individual transaction and uses this code to determine the next required letter for each transaction.
+
+Collection letters can also be set up at the customer level so that the collection letter code for each transaction is tracked, but the collection letter processing will be based on a single collection letter level that is stored for the customer. The single collection letter will contain all transactions that are overdue for the customer. Because the grace days are now tracked on the customer level, the next collection letter will not be sent until the number of grace days has passed for the next collection letter in the sequence, even though transactions become overdue after the last collection letter was sent. This option reduces the number of collection letters you will send per customer.
 
 ### Set up the customer to control collection letters at the customer level
 1.  Go to **Navigation pane > Modules > Credit and collections > Setup > Accounts receivable parameters** and select the **Collections** tab. 
