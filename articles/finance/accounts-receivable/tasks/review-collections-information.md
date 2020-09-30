@@ -124,7 +124,7 @@ This topic explains how to review collections information as well as various set
 - This button is not available if the salesperson that is displayed in this form does not have an email address set up.  
 - View and perform actions on transactions for the customer. If you are using centralized payments, information for all legal entities that are included in the customer's aging snapshot is included. You can restrict the legal entity information by selecting **Company** in the **Select** group on the action pane.  
 - Change the collections status for the selected transactions.    
-  - Not disputed – No collections action has occurred for the transaction.    
+  - Not disputed – No collections action or history has occurred for the transaction.    
   - Disputed – The customer has notified you that there is a problem with the transaction.    
   - Promised to pay – The customer has agreed to pay the transaction amount.    
   - Resolved – All problems with the transaction have been solved and no additional collections action is necessary.  
