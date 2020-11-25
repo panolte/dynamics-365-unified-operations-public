@@ -104,14 +104,14 @@ Before you can view cash flow forecasting analytics, you must run the cash flow 
 
 Calculate the cash flow forecast by using the **Calculate cash flow forecasts** page. You can calculate either the full cash flow forecast or an incremental cash flow forecast. 
 
-- To clear all cash flow forecast transactions and recalculate, set the **Cash flow forecast calculation method** field to **Total**. We recommend that you use this approach if you haven't updated the cash flow forecasts for a long time. 
-- To update the existing cash flow information for new transactions only, set the **Cash flow forecast calculation method** field to **New**. The page will show the date when your cash flow calculation was last run.
+- To clear all cash flow forecast transactions and recalculate, set the **Cash flow forecast calculation method** field to **Total**. We recommend this method is used once per week to refresh the data. 
+- To update the existing cash flow information for new and changed transactions only, set the **Cash flow forecast calculation method** field to **New**. The page will show the date when your cash flow calculation was last run. We recommend this method is used up to once per day to maintain up-to-data. 
 
-You can also use batch processing for your cash flow forecasting. To help guarantee that your forecasting analytics are regularly updated, set up a recurring batch process for cash flow forecast calculation.
+You can also use batch processing for your cash flow forecasting. To help guarantee that your forecasting analytics are regularly updated, set up a recurring batch process for cash flow forecast calculation. We recommend running this batch process one time per day during off peak hours.
 
 ### Reporting
 
-After the cash flow forecast is calculated, you must refresh the associated entity information for analytical reporting. On the **Entity store** page, select the **LedgerCovLiquidityMeasurement aggregate** measurement, and then click **Refresh**.
+After the cash flow forecast is calculated, you must refresh the associated entity information for analytical reporting. On the **Entity store** page, select the **LedgerCovLiquidityMeasurement** measurement, and then click **Refresh**.  Next select the **Cash Flow Measure V2** measurement, and click **Refresh**.
 
 There are two workspaces that contain cash flow forecasting data. One workspace has data for all companies, and the other workspace has data only for the current company.
 
